@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "1000\r\n12\r\n300\r\n100",
+      "output": "25",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
